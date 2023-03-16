@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            color: #222831;
+            font-family: 'roboto', sans-serif;
+
+        }
+        header{
+            background-color: #00ADB5;
+        }
+        .container{
+            display: flex;
+            flex-grow: 1;
+        }
+        aside{
+            background-color: #393E46;
+            color: #EEEEEE;
+            width: 200px;
+        }
+        main{
+            flex-grow:1;
+            background-color: #EEEEEE;
+        }
+        footer{
+            background-color: #00ADB5;
+        }
+        h1,h2,p{
+            margin-left : 25px
+        }
+        ul{
+            list-style: none;
+        }
+        a li{ 
+            color: #EEEEEE;
+            line-height: 40px;
+        }
+        a{
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <div class="container">
+        <aside>
+            <h2>Aside</h2>
+            <ul>
+                <a href="#"><li>Item</li></a>
+                <a href="#"><li>Item</li></a>
+                <a href="#"><li>Item</li></a>
+                <a href="#"><li>Item</li></a>
+                <a href="#"><li>Item</li></a>
+            </ul>
+        </aside>
+        <main>
+            <p>Main</p>
+        </main>
+
+    </div>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
